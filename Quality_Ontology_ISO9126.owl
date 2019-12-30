@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2017/6/Quality_Ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/Quality_Ontology">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Early"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finger_Print"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fixed_key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geometrical_Pin_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Late"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Longer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retina_Scanner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scrambled_key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Second"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smart_card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TIme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Adabtability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Analyzability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Attractiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Availability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Changability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Co-existance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Compliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Confidentiality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Fault-Tolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Installability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Integrity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Interoperability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Learnability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maintainability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maturity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Compression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Indexing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Portability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Privacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Quality_Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Recoverability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Reliability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Replacibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Space_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Stability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Suitability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Testability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Understandability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Usability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#AchievedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Never_Conflict"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_PositiveImpact"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Early"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finger_Print"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fixed_key"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometrical_Pin_code"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Late"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Longer"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minute"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retina_Scanner"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scrambled_key"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Second"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smart_card"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TIme"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Accuracy"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Adabtability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Portability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Analyzability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maintainability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Attractiveness"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Availability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Changability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maintainability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Co-existance"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Portability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Compliance"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Confidentiality"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Fault-Tolerance"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Reliability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Quality_Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Installability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Portability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Integrity"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Interoperability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Learnability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maintainability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Quality_Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maturity"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Reliability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Compression"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Indexing"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Operability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Performance"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Quality_Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Portability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Quality_Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Privacy"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Recoverability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Reliability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Reliability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Quality_Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Replacibility"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Portability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Security"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Space_Behaviour"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Stability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maintainability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Suitability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Testability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maintainability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Understandability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Usability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Usability"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Quality_Model"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Compression"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Indexing"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_PositiveImpact"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_PositiveImpact"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Never_Conflict"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+    </SymmetricObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Never_Conflict"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+    </ReflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Accuracy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Changability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Confidentiality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Interoperability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Maintainability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Performance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Accuracy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Performance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Compression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Indexing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_PositiveImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Compression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_PositiveImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Op_Indexing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Portability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Security"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Absolute_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Confidentiality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Relative_Conflict"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Usability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Space_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_NegativeImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_PositiveImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Space_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#has_PositiveImpact"/>
+        <Class IRI="http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Time_Behaviour"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/lenovo/ontologies/2017/6/untitled-ontology-9#Functionality</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Implemented</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
